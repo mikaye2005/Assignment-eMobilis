@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal  Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7f6;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background-color: #343a40;
+        }
+        .navbar .nav-link {
+            color: #ffffff !important;
+        }
+        .header {
+            background-color: #00bcd4;
+            color: white;
+            text-align: center;
+            padding: 50px 0;
+        }
+        .header img {
+            max-width: 200px;
+            border-radius: 50%;
+            border: 5px solid white;
+        }
+        .tagline {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 28px;
+            font-weight: bold;
+            color: #333;
+        }
+        #skills-hobbies {
+            background-color: #fff;
+            padding: 50px;
+        }
+        .col-md-6 h2 {
+            color: #00bcd4;
+            font-weight: bold;
+        }
+        .footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .footer a {
+            color: #00bcd4;
+            margin: 0 15px;
+        }
+        .about-me {
+            padding: 50px;
+            background-color: #eaf2f8;
+        }
+        .contact-section {
+            background-color: #fff;
+            padding: 50px;
+            margin: 50px 0;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-section h2 {
+            color: #00bcd4;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">Collins Mikaye</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills-hobbies">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <div class="header">
+        <img = src>
+        <h1>Collins Mikaye</h1>
+    </div>
+
+    <!-- Tagline Section -->
+    <div class="tagline">
+        <p>"Creating engaging and intuitive web solutions for a connected world"</p>
+    </div>
+
+    <!-- About Me Section -->
+    <div class="about-me">
+        <h2>About Me</h2>
+        <p>Hello, I'm Collins Mikaye, a dedicated and passionate web developer specializing in creating modern, responsive websites. With a strong foundation in HTML, CSS, JavaScript, and Bootstrap, I am proficient in building websites that not only look great but also provide seamless user experiences. My problem-solving abilities, attention to detail, and love for coding have helped me work on various web development projects, focusing on efficiency and innovation.</p>
+        <p>I thrive in collaborative environments and am always eager to learn new technologies and tools to stay ahead of industry trends. If you're looking for someone who is committed to delivering high-quality work with professionalism and creativity, I am the right person for your web projects!</p>
+    </div>
+
+    <!-- Skills and Hobbies Section -->
+    <div id="skills-hobbies" class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML & CSS</li>
+                    <li>JavaScript</li>
+                    <li>Bootstrap</li>
+                    <li>Python</li>
+                    <li>Responsive Web Design</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h2>Hobbies</h2>
+                <ul>
+                    <li>Photography</li>
+                    <li>Blogging</li>
+                    <li>Solving coding challenges</li>
+                    <li>Reading tech articles</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" id="name" placeholder="Collins Mikaye" value="Collins Mikaye" required disabled>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="mikaye.collins23@students.dkut.ac.ke" value="mikaye.collins23@students.dkut.ac.ke" required disabled>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" class="form-control" id="phone" placeholder="0790857257" value="0790857257" required disabled>
+                </div>
+                <div class="form-group">
+                    <label for="whatsapp">WhatsApp:</label>
+                    <input type="tel" class="form-control" id="whatsapp" placeholder="0718789600" value="0718789600" required disabled>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea class="form-control" id="message" rows="5" placeholder="Enter your message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>Connect with me:</p>
+        <a href="https://www.linkedin.com/">LinkedIn</a>
+        <a href="https://github.com/">GitHub</a>
+        <a href="https://twitter.com/">Twitter</a>
+    </footer>
+
+</body>
+</html>
